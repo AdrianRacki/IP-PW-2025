@@ -8,27 +8,11 @@
 
 Pobierz repozytorium na swój lokalny komputer.
 
-**Opcja 1: Klonowanie przez Git (zalecane)**
+**Opcja 1: Klonowanie przez Git**
 ```bash
-git clone <URL_REPOZYTORIUM>
-cd <NAZWA_FOLDERU_REPOZYTORIUM>
+git clone https://github.com/AdrianRacki/python_exercises_wut_2025.git
+cd python_exercises_wut_2025
 ```
-
-**Opcja 2: Pobieranie jako ZIP**
-1. Przejdź do repozytorium na GitHub/GitLab
-2. Kliknij przycisk "Code" → "Download ZIP"
-3. Wypakuj archiwum do wybranego folderu
-4. Otwórz folder w terminalu:
-```bash
-cd ścieżka/do/wypakowanego/folderu
-```
-
-**Weryfikacja:**
-Sprawdź, czy jesteś w odpowiednim folderze:
-```bash
-ls
-```
-Powinieneś zobaczyć pliki: `cwiczenia_python.md`, folder `solutions`, itp.
 
 ---
 
@@ -44,7 +28,7 @@ Aktywuj środowisko:
 
 **Windows:**
 ```bash
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 **macOS / Linux:**
