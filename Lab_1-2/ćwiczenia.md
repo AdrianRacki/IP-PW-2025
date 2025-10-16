@@ -8,10 +8,17 @@
 
 Pobierz repozytorium na swój lokalny komputer.
 
-**Opcja 1: Klonowanie przez Git**
+**Opcja 1: Pobranie zip**
+1. Wejdź na stronę: https://github.com/AdrianRacki/IP-PW-2025
+2. Kliknij "Code" → "Download ZIP"
+3. Rozpakuj plik ZIP w wybranym folderze.
+4. Otwórz folder w VSCode. 
+
+
+**Opcja 2: Klonowanie przez Git (opcjonalne)**
 ```bash
-git clone https://github.com/AdrianRacki/python_exercises_wut_2025.git
-cd python_exercises_wut_2025
+git clone https://github.com/AdrianRacki/IP-PW-2025.git
+cd IP-PW-2025
 ```
 
 ---
@@ -92,7 +99,7 @@ wynik = a ** b + a / b - (a // b)
 
 Wypisz wartości każdej zmiennej w czytelnej formie:
 ```python
-print(f"a = {a}, b = {b}, wynik = {wynik}")
+print("a =", a, "b =", b, "wynik =", wynik)
 ```
 
 - Zmień wartość `a` i `b`, ponownie uruchom program – co się zmienia?
@@ -234,7 +241,8 @@ while licznik <= n:
     licznik = licznik + 1
 
 srednia = suma / n
-print(f"Suma: {suma}, Średnia: {srednia}")
+print("Suma:", suma)
+print("Średnia:", srednia)
 ```
 
 ---
